@@ -1,0 +1,57 @@
+export default {
+    path:"/boiling",
+    component:()=>import("views/boiling"),
+    name:"boiling"
+}
+children:[
+    {
+        path:'/tuijian',
+        component:()=>import("views/tuijian"),
+        name:'tuijian'
+    },
+    {
+        path:'/redian',
+        component:()=>import("views/redian"),
+        name:'redian'
+    },
+    {
+        path:'/guanzhu',
+        component:()=>import("views/guanzhu"),
+        name:'guanzhu'
+    },
+    {
+        path:'/kaiyuantuijian',
+        component:()=>import("views/kaiyuantuijian"),
+        name:'kaiyuantuijian'
+    },
+    {
+        path:'/neituizhaoping',
+        component:()=>import("views/neituizhaoping"),
+        name:'neituizhaoping'
+    },
+    {
+        path:'/juejinxiangqin',
+        component:()=>import("views/juejinxiangqin"),
+        name:'juejinxiangqin'
+    },
+    {
+        path:'/shangbanmoyu',
+        component:()=>import("views/shangbanmoyu"),
+        name:'shangbanmoyu'
+    },
+    {
+        path:'/yinyonanli',
+        component:()=>import("views/yinyonanli"),
+        name:'yinyonanli'
+    },
+    {
+        path:'/kaifagonju',
+        component:()=>import("views/kaifagonju"),
+        name:'kaifagonju'
+    },
+    {
+        path:'/xinzixun',
+        component:()=>import("views/xinzixun"),
+        name:'xinzixun'
+    },
+]

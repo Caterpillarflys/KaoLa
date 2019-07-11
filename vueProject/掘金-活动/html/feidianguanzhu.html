@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+    }
+
+    body,
+    html {
+        background: #999;
+    }
+
+    #guanzhu {
+        border-radius: .02rem;
+        margin-top: .16rem;
+        width: 100%
+    }
+
+    .guanzhu-title {
+        padding: .24rem .32rem;
+        color: #2e3135;
+        font-size: .3rem;
+        font-weight: 600;
+        border-bottom: 1px solid hsla(0, 0%, 59.2%, .5);
+        background: #fff;
+    }
+
+    .guanzhu-list {
+        width: 100%;
+        padding: 0 .32rem;
+        background: #fff;
+    }
+
+    .guanzhu-list-ul {
+        width: 100%;
+        padding: .16rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #fff;
+    }
+
+    .headImg {
+        width: .9rem;
+        height: .9rem;
+        margin-right: .2rem;
+        background: red;
+    }
+
+    .guanzhuTxt-username {
+        font-size: .3rem;
+        color: #17181a;
+    }
+
+    .guanzhuTxt-detail {
+        margin-top: .04rem;
+        font-size: .26rem;
+        color: #8a9aa9;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .guanzhuBtn {
+
+        flex: 0 0 auto;
+        margin: 0 0 0 1rem;
+        padding: 0;
+        width: 1.1rem;
+        height: .52rem;
+        font-size: .26rem;
+        color: #6cbd45;
+        background-color: #fff;
+        border: 1px solid #6cbd45;
+        border-radius: .04rem;
+        text-align: center;
+        line-height: .52rem
+    }
+
+    .list-ul-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+</style>
+
+<body>
+    <div id="guanzhu">
+        <div class="guanzhu-title">你可能感兴趣的人</div>
+        <div class="guanzhu-list">
+            <ul class="guanzhu-list-ul">
+                <div class="list-ul-left">
+                    <div class="headImg"></div>
+                    <div class="guanzhuTxt">
+                        <p class="guanzhuTxt-username">java高级架构</p>
+                        <p class="guanzhuTxt-detail">后端领域优秀贡献者</p>
+                        <p class="guanzhuTxt-detail"><span>1k</span>+人关注</p>
+                    </div>
+                </div>
+                <div class="guanzhuBtn">关注</div>
+            </ul>
+        </div>
+
+        <div class="guanzhu-list">
+                <ul class="guanzhu-list-ul">
+                    <div class="list-ul-left">
+                        <div class="headImg"></div>
+                        <div class="guanzhuTxt">
+                            <p class="guanzhuTxt-username">java高级架构</p>
+                            <p class="guanzhuTxt-detail">后端领域优秀贡献者</p>
+                            <p class="guanzhuTxt-detail"><span>1k</span>+人关注</p>
+                        </div>
+                    </div>
+                    <div class="guanzhuBtn">关注</div>
+                </ul>
+            </div>
+
+            <div class="guanzhu-list">
+                    <ul class="guanzhu-list-ul">
+                        <div class="list-ul-left">
+                            <div class="headImg"></div>
+                            <div class="guanzhuTxt">
+                                <p class="guanzhuTxt-username">java高级架构</p>
+                                <p class="guanzhuTxt-detail">后端领域优秀贡献者</p>
+                                <p class="guanzhuTxt-detail"><span>1k</span>+人关注</p>
+                            </div>
+                        </div>
+                        <div class="guanzhuBtn">关注</div>
+                    </ul>
+                </div>
+    </div>
+</body>
+
+</html>
+<script src="../js/flexble.js"></script>
